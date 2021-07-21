@@ -6,9 +6,15 @@ authors = ["Roman Glushko <roman.glushko.m@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = ">=3.8"
+python = ">=3.7,<3.10"
 pandas = "^1.3.0"
 ipykernel = "^6.0.3"
+seaborn = "^0.11.1"
+matplotlib = "^3.4.2"
+scikit-learn = "^0.24.2"
+scipy = "^1.7.0"
+plotly = "^5.1.0"
+nbformat = "^5.1.3"
 
 [tool.poetry.dev-dependencies]
 
